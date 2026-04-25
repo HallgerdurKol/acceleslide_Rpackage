@@ -1,0 +1,21 @@
+Package: acceleslide
+Title: Analyses accelerometer data using a sliding window
+Version: 0.0.0.9000
+Authors@R: 
+    person(
+    "Hallgerdur", "Kolbeinsdottir",
+    "hallgerdur.kolbeinsdottir@ki.se",
+    role = c("aut", "cre")
+    )
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports: 
+    dplyr,
+    ggplot2,
+    tidyr
+Depends: 
+    R (>= 3.5)
+LazyData: true
